@@ -1,0 +1,363 @@
+body{
+    background-color: rgb(67, 148, 65);
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: rgb(67, 148, 65);
+    background-image: url();
+    background-repeat: none;
+    background-size: cover;
+  
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(250, 250, 250);
+    background-image: url(https://img.freepik.com/vector-premium/diseno-forma-circulo-elegante-fondo-plateado-claro-abstracto-moderno_464385-439.jpg?w=996);
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed 
+  .centered img {
+    width: 150px;
+  }*/
+
+ 
+/*
+.geeks { 
+    width: 20%; 
+    top: 50%; 
+    position: absolute; 
+    left: 40%; 
+    border-bottom: 5px solid white; 
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+} 
+
+.geeks h1 { 
+    color: white; 
+} 
+
+@keyframes animate { 
+    0% { 
+        width: 0px; 
+        height: 0px; 
+    } 
+
+    30% { 
+        width: 50px; 
+        height: 0px; 
+    } 
+
+    60% { 
+        width: 50px; 
+        height: 80px; 
+    } 
+} */
+
+#logoform{
+    width: 300px;
+    height: 100px;
+}
+#logoform2{
+  width: 400px;
+  height: 150px;
+}
+#formularioinicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 200px;
+    margin: 0 auto;
+    width: 50px;
+    height: 70px;
+    background-color: #ffffff; 
+    border-radius: 70px; 
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); 
+}
+
+/*#cuadradoform{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    height: auto;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 50px;
+  }*/
+
+.main {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: center;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+  }
+.main2 {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: center;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+    height: auto;
+  }
+  label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8c8c;
+    background-image: url('');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+input[type=email] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f8c8c;
+  background-image: url('');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+input[type=password] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8c8c;
+    background-image: url(https://static-00.iconduck.com/assets.00/user-icon-2046x2048-9pwm22pp.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+button{
+  padding: 10px;
+  background-color: rgb(31, 81, 124);
+  color: white; border: none; 
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: black 10px;
+  width: 300px;
+  height: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+button {
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(13, 70, 112);
+    width: 100%;
+    height: 30px;
+    max-width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.forgotpsw{
+    text-align: left;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+.accesogeneral {
+  display: flex;
+  position: relative;
+  width: 700px;
+  height: 175px;
+  text-align: start;
+  justify-content: left;
+}
+
+h1 {
+  position: absolute;
+  width: 700px;
+  height: 50%;
+  font-size: 75px;
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h1:after {
+  position: absolute;
+  content: "|Acceso General";
+  width: 700px;
+  height: 100%;
+  line-height: 48px;
+  left: 10%;
+  top: 50%;
+  animation: abomination1 7.5s linear 1;
+  animation-fill-mode: forwards;
+}
+
+
+  @keyframes abomination1 {
+  0% {
+    content: "| ";
+  }
+  4% {
+    content: "| A";
+  }
+  8% {
+    content: "| Ac";
+  }
+  12% {
+    content: "| Acc";
+  }
+  16% {
+    content: "| Acce";
+  }
+  20% {
+    content: "| Acces";
+  }
+  24% {
+    content: "| Acceso";
+  }
+  28% {
+    content: "| Acceso ";
+  }
+  32% {
+    content: "| Acceso G";
+  }
+  36% {
+    content: "| Acceso Ge";
+  }
+  40% {
+    content: "| Acceso Gen";
+  }
+  44% {
+    content: "| Acceso Gene";
+  }
+  48% {
+    content: "| Acceso Gener";
+  }
+  52% {
+    content: "| Acceso Genera";
+  }
+  56% {
+    content: "| Acceso General";
+  }
+  56% {
+    content: "| Acceso General ";
+  }
+  60% {
+    content: "| Acceso General  ";
+  }
+  64% {
+    content: "| Acceso General   ";
+  }
+  68% {
+    content: "| Acceso General   ";
+  }
+  72% {
+    content: "| Acceso General    ";
+  }
+  76% {
+    content: "| Acceso General    ";
+  }
+  80% {
+    content: "| Acceso General     ";
+  }
+  84% {
+    content: "| Acceso General       ";
+  }
+  88% {
+    content: "| Acceso General         ";
+  }
+  92% {
+    content: "| Acceso General          ";
+  }
+  96% {
+    content: "| Acceso General            ";
+  }
+  100% {
+    content: "| Acceso General             ";
+  }}

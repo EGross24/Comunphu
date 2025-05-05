@@ -1,0 +1,175 @@
+
+.contenedorcomentarioycalificacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+    gap: 20px;
+    width: 100%;              
+    margin: 30px auto;  
+    min-width: 150px;      
+  }
+  
+
+.namedocente{
+    text-align: center;
+}
+.infodocente{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 70, 112);
+}
+.imagendocente{
+    height: 30%;
+    width: 20%;
+}
+.promedio{
+    text-align: center;
+    margin-left: 48%;
+}
+
+/* Botón principal */
+#modalbcomentario {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: green;
+color: white;
+font-weight: bold;
+}
+
+/* Modal */
+.modalcomentario2 {
+display: none; /* oculto por defecto */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5); /* fondo oscuro */
+justify-content: center;
+align-items: center;
+}
+
+.modalcontenido {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+width: 400px;
+max-width: 90%;
+}
+
+textarea {
+width: 100%;
+height: 100px;
+margin-bottom: 15px;
+padding: 10px;
+resize: vertical;
+}
+
+.modal-buttons {
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+}
+
+button {
+padding: 8px 16px;
+cursor: pointer;
+}
+
+
+
+#modalcalificacion {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    }
+
+    .modalcalificacion2 {
+        display: none; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        justify-content: center;
+        align-items: center;
+      }
+      
+
+        .modalcontenidoc {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            max-width: 90%;
+            text-align: center;
+            }
+            
+            textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 15px;
+            padding: 10px;
+            resize: vertical;
+            }
+            
+            .modal-buttonsc {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            }
+            
+            button {
+            padding: 8px 16px;
+            cursor: pointer;
+            }        
+
+.comentarioss{
+    color: grey;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comentariocontenido {
+    background-color: #f5f5f5; /* fondo suave */
+    border: 1px solid #ccc; /* borde gris */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* sombra sutil */
+  }
+  
+  .comentariocontenido p {
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  .usuario{
+    color: grey;
+    font-weight: 100;
+    font-size: 10px;
+  }
+
+  .fecha{
+    color: grey;
+    font-weight: 100;
+    font-size: 8px;
+  }
+
+  
+
+  
+  .comentarioss {
+    text-align: center;
+    font-size: 24px;
+    color: #0c3c60;
+  }
+  

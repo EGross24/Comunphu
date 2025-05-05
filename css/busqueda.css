@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+    position: fixed;
+    height: auto;
+}
+nav{
+    background-color: rgb(13, 70, 112);
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 150%;
+    font-weight: 300;
+    margin: 50px 20px 0 0;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor-logo{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+.logo{
+    width: 60%;
+    margin-bottom: 20px;
+    width: 200px; 
+    height: 50%;
+    justify-content: left;
+    align-items: start;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.mailhello{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.busquedafoto{
+    background-image: url(https://www.eurosci.net/sites/default/files/styles/sc_1536_384/public/campus-unphu.jpg?itok=s2DcclKt);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 300px;
+    width: 100%;
+  }
+  .centered {
+    position: static;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  }
+  .textobusqueda{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+    .buscarcontenedor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center; 
+      height: 100px; 
+      text-align: center;
+    }
+    .promedio{
+      display: flex;
+      flex-direction: row;
+    }

@@ -1,0 +1,361 @@
+body{
+    background-color: #f9f9f9;}
+
+header{
+    width: auto;
+    position: sticky;
+    height: 90px;}
+
+nav{
+    background-color:#f9f9f9 ;
+    width: auto;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1000px;
+    font-size: 150%;
+    font-weight: 300;
+    margin: 50px 20px 0 0;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.adminlogo{
+    width: 60%;
+    margin-bottom: 20px;
+    width: 300px; 
+    height: 80px;
+    justify-content: left;
+    align-items: start;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.mailhello svg{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/*funciones del admin*/
+
+#funciones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-left: 20%;
+    justify-content: space-between;
+    width: auto;
+}
+
+#funciones svg{
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 20%;
+        margin-top: 15%;
+}
+#funciones2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: space-between;
+    width: auto;
+}
+
+#funciones2 svg{
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 20%;
+        margin-top: 15%;
+}
+.comentarios, .usuarios, .docentes, .facultades, .dep-escuelas, .carreras, .asignaturas{
+    background-color: rgb(196, 196, 196);
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+
+#funciones p{
+    width: auto;
+    height: 30px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+.functionsmall{
+    width: 150px;
+    height: 150px;
+}
+
+
+/*docentes*/
+.contenedordocentes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1%;
+    text-align: center;
+    width:80%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.addmaestro, .reporte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(13, 70, 112);
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+}
+.addmaestro p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.addmaestro svg{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    font-family: 'FontAwesome';
+}
+.reporte p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.reporte svg{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    font-family: 'FontAwesome';
+}
+.reporte a{
+    text-decoration: none;
+}
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subheader svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.subheader svg:hover {
+    transform: scale(1.1);
+}
+.subheader p{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#contenedor-addmaestro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px; 
+    height: 300px; 
+    border-radius: 20px; 
+    border: 10px #555;
+    border-style: solid;
+    
+}
+#contenedor-addmaestro1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px; 
+    height: 400px; 
+    border-radius: 20px; 
+    border: 10px #555;
+    border-style: solid;
+    
+}
+#contenedorPrincipaladd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px; 
+    height: 300px; 
+    border-radius: 20px; 
+    border: 10px #555;
+    border-style: solid;
+    
+  }
+  #divideform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+
+.formleft{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    
+}
+.formright{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white; border: none; 
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: black 10px;
+    width: 250px;
+    height: auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contenedor2add {
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    text-align: center;
+  }
+
+ label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    color: #8f8c8c;
+    padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+input[type=email] {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #8f8c8c;
+    background-image: url('');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+  }
+  
+  
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.form-addasignatura{
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: center;
+}
